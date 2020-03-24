@@ -1,0 +1,10 @@
+#!/bin/bash
+# uninstall aws cli 1 from cloud9 environment
+echo "which aws"
+which aws
+echo "ls -l /usr/bin/aws"
+ls -l /usr/bin/aws
+echo "uninstalling"
+sudo rm /usr/bin/aws
+sudo rm /usr/bin/aws2_completer
+sudo rm -rf /usr/local/aws-cli
